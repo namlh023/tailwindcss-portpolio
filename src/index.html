@@ -19,7 +19,7 @@
     <title>Frontend Mentor | Single-page design portfolio</title>
   </head>
   <body class="bg-cream">
-    <main class="p-4">
+    <main class="px-4 py-4 xl:px-36 xl:py-12">
       <header class="flex flex-row justify-between items-center">
         <img src="./assets/logo.svg" width="48px" height="48px" />
         <div
@@ -28,14 +28,78 @@
           Free Consultation
         </div>
       </header>
-      <div class="my-10 flex flex-col justify-center items-center gap-3">
-        <h1 class="font-poppins font-bold text-black text-4xl text-center">
+      <div
+        class="my-10 flex flex-col justify-center items-center gap-4 md:gap-8 md:my-14"
+      >
+        <h1
+          class="font-poppins font-bold text-black text-3xl text-center md:text-4xl"
+        >
           Design solutions made easy
         </h1>
-        <p class="text-center font-poppins font-medium text-lg text-brown">
+        <p
+          class="text-center font-poppins font-medium text-lg text-brown md:text-xl max-w-[55ch]"
+        >
           With over ten years of experience in various design disciplines, I'm
           your one-stop sho pfor your design needs.
         </p>
+      </div>
+      <div
+        class="grid grid-cols-2 grid-rows-6 gap-3 h-[1164px] md:grid-cols-4 md:grid-rows-3 md:h-[690px] xl:grid-cols-6 xl:grid-rows-2 xl:h-[354px]"
+      >
+        <div
+          class="col-span-full row-span-2 relative bg-galacticBlue bg-graphicDesign bg-no-repeat bg-top-right-block rounded-md md:col-span-2 md:row-span-2"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            Graphic Design
+          </p>
+        </div>
+        <div
+          class="col-span-1 row-span-1 relative bg-summerYellow bg-uiUx bg-no-repeat bg-top-right-block rounded-md md:col-span-1 md:row-span-1"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            UI/UX
+          </p>
+        </div>
+        <div
+          class="col-span-1 row-span-1 bg-pink-400 relative bg-apps bg-no-repeat bg-top-right-block rounded-md md:col-span-1 md:row-span-1"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            Apps
+          </p>
+        </div>
+        <div
+          class="col-span-2 row-span-1 bg-lightRed relative bg-illustrations bg-no-repeat bg-top-right-block rounded-md md:col-span-2 md:row-span-1"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            Illustrations
+          </p>
+        </div>
+        <div
+          class="col-span-2 row-span-1 bg-cyan-400 relative bg-photo bg-no-repeat bg-top-right-block rounded-md"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            Photography
+          </p>
+        </div>
+        <div
+          class="col-span-2 row-span-1 bg-darkPurple relative bg-motion bg-no-repeat bg-top-right-block rounded-md"
+        >
+          <p
+            class="absolute bottom-4 left-4 text-white font-poppins font-bold text-2xl"
+          >
+            Motion Graphics
+          </p>
+        </div>
       </div>
     </main>
     <!-- Free Consultation Design solutions made easy With over ten years of
