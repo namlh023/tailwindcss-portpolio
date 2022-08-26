@@ -24,6 +24,7 @@ module.exports = {
         illustrations: "url('/src/assets/pattern-illustrations.svg')",
         photo: "url('/src/assets/pattern-photography.svg')",
         motion: "url('/src/assets/pattern-motion-graphics.svg')",
+        amy: "url('/src/assets//image-amy.webp')",
       },
       backgroundPosition: {
         "top-right-block": "right 1rem top 1rem",
